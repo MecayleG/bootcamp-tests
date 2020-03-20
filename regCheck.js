@@ -2,7 +2,7 @@
 var reg = "DC 55 YU GP"
 var town = "GP"
 
-var regCheck = function(reg, town){
-  var result = reg.endsWith(town);
+var regCheck = function(reg){
+  var result = reg.endsWith("GP");
      return result;
 };

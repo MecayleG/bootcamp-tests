@@ -1,6 +1,6 @@
 describe('Counting' , function(){
-    it('reg' , function(){
-        assert.equal(3, countRegNumber(reg));
+    it('for reg' , function(){
+        assert.equal(3, countRegNumber(regNum));
 
         
     });
