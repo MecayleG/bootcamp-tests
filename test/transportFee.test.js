@@ -1,4 +1,4 @@
-describe('Calculate shift cost' , function(){
+describe('Calculate the cost of shifts' , function(){
     it('Morning' , function(){
     	var shift = 'morning';
         assert.deepEqual(transportFee(shift), 'R20')
