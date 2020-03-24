@@ -3,8 +3,12 @@ describe('The greet function ' , function(){
         assert.equal(greet('Mecayle'), 'Hello, Mecayle');
 
     });
-    it('should greet Meeks' , function(){
-        assert.equal(greet('Meeks'), 'Hello, Meeks');
+    it('should greet Lila' , function(){
+        assert.equal(greet('Lila'), 'Hello, Lila');
+
+    });
+    it('should greet Rephan' , function(){
+        assert.equal(greet('Rephan'), 'Hello, Rephan');
 
     });
 

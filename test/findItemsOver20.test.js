@@ -1,5 +1,5 @@
-describe('How many items over 20' , function(){
-	it('pears & bananas' , function(){
+describe('How many items have quantity over 20' , function(){
+	it('Item list 1' , function(){
 	var item = [
     {name : 'apples', qty : 10},
     {name : 'pears', qty : 37},
@@ -9,7 +9,7 @@ describe('How many items over 20' , function(){
 	assert.deepEqual(findItemsOver20(item), [{'name' : 'pears', 'qty' : 37}, {'name' : 'bananas', 'qty' : 27}]);        
 	});
 
-	it('apples and kiwi' , function(){
+	it('Item list 2' , function(){
 	var item = [
     {name : 'apples', qty : 35},
     {name : 'pears', qty : 15},
