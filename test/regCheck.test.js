@@ -1,16 +1,16 @@
 
-describe('Check where a registration is from' , function(){
-    it('GP' , function(){
+describe('The regCheck function checks if the registration number matches the town given' , function(){
+    it('should return true if town matches registration' , function(){
     	var regsNum = 'DC 55 YU GP'
     	var town = 'GP'
         assert.equal(true, regCheck(regsNum, town));        
     });
-   it('L' , function(){
-    	var regsNum ='D 153 L'
+   it('should return false if town does not match registration' , function(){
+    	var regsNum ='DC 55 YU GP'
     	var town = 'L'
-        assert.equal(true, regCheck(regsNum, town));        
+        assert.equal(false, regCheck(regsNum, town));        
     });
-   it('MP' , function(){
+   it('Should return true if town matches registration' , function(){
     	var regsNum = 'FGT 123 MP'
     	var town = 'MP'
         assert.equal(true, regCheck(regsNum, town));        

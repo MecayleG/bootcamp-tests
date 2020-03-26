@@ -1,5 +1,5 @@
-describe('Which department is most profitable' , function(){
-    it('Outdoor' , function(){
+describe('mostProfitableDepartment function returns the department which  is most profitable' , function(){
+    it('should return Outdoor department' , function(){
     	var profDep = [
     {department: 'hardware', sales: 4500, day: 'Monday'},
     {department: 'outdoor', sales: 1500, day: 'Monday'},
@@ -19,7 +19,7 @@ describe('Which department is most profitable' , function(){
 ];
         assert.equal(mostProfitableDepartment(profDep), 'outdoor');
     });
-    it('Hardware' , function(){
+    it('should return Hardware department' , function(){
     	var profDep = [
     {department: 'hardware', sales: 5700, day: 'Monday'},
     {department: 'outdoor', sales: 1500, day: 'Monday'},
@@ -39,7 +39,7 @@ describe('Which department is most profitable' , function(){
 ];
         assert.equal(mostProfitableDepartment(profDep), 'hardware');
     });
-    it('Carpentry' , function(){
+    it('should return Carpentry department' , function(){
     	var profDep = [
     {department: 'hardware', sales: 4500, day: 'Monday'},
     {department: 'outdoor', sales: 1500, day: 'Monday'},
